@@ -30,7 +30,8 @@ public class AmazonSteps {
 
     @Then("User should be able to enter all credentials and click create your Amazon account button")
     public void user_should_be_able_to_enter_all_credentials_and_click_create_your_Amazon_account_button() {
-        page.SignUp("Abuziddin","cebotal733@eyeremind.com","Kilkuyruk1","Kilkuyruk1");
+       // page.SignUp("Abuziddin","cebotal733@eyeremind.com","Kilkuyruk1","Kilkuyruk1");
+        page.SignUp();
 
 
     }
