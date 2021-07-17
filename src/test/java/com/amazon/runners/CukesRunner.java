@@ -8,8 +8,11 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/features",
         glue = "com/amazon/stepdefinitions", // test adımlarının bulunduğu klasör
-        tags = "",
-        dryRun = false // true ise sadece eksik olan methodları söyle
+        tags = "@regression",
+        dryRun = false,
+        plugin = "json:target/cucumber.json",
+        strict = true
+        // true ise sadece eksik olan methodları söyle
         // false ise direk teste başla
 
 )
