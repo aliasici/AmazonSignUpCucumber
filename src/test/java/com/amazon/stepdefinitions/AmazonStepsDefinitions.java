@@ -8,7 +8,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class AmazonSteps2 {
+public class AmazonStepsDefinitions {
 
     AmazonSignUpPage page = new AmazonSignUpPage();
 
