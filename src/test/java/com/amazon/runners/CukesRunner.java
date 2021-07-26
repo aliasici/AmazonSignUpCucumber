@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         glue = "com/amazon/stepdefinitions", // test adımlarının bulunduğu klasör
         tags = "@regression",
         dryRun = false,
-        plugin = "json:target/cucumber.json",
+        plugin = {"json:target/cucumber.json", "html:target/default-cucumber-reports"},
         strict = true
         // true ise sadece eksik olan methodları söyle
         // false ise direk teste başla
