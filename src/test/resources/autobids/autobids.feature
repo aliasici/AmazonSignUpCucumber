@@ -6,7 +6,7 @@ Feature: Autobids login
     Then User should be able to click Login functionality
 
   @autobids
-  Scenario: Login as a sales manger
+  Scenario: Login as an user
    And User should be able to enter all credentials
     And User should be able to click login button
   @negativelogin
