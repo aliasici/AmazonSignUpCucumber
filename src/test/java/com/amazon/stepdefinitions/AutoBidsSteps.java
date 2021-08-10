@@ -35,6 +35,7 @@ public class AutoBidsSteps {
     public void user_logs_in_with_email_and_password(String email, String password) {
         autoBids.login(email,password);
         autoBids.submit.click();
+        BrowserUtils.wait(3);
     }
 
     @Then("user verifies that {string} message is displayed")
