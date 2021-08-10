@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features = "src/test/resources/autobids",
         glue = "com/amazon/stepdefinitions",
-        tags =  "@negativelogin",
+        tags =  "",
         dryRun = false
 
         // true ise sadece eksik olan methodları söyle
