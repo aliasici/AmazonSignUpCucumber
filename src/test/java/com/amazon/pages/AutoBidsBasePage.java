@@ -11,6 +11,18 @@ public abstract class AutoBidsBasePage {
         PageFactory.initElements(Driver.getDriver(),this);
     }
 
+    /*
+    Commmon xpaths:
+      #1- //tagName[@attribute='value']
+      #2- //*[@attribute='value'] --> * means look for all web elements
+      #3- //tagName[.='text'] --> returns the web element with given text.
+
+      Example og Login button
+      //p[.=' Login ']
+     */
+
+
+
     @FindBy(xpath = "//p[text()=' Login ']")
     public WebElement login;
 }
