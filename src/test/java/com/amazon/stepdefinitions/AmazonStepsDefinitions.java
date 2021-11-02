@@ -1,16 +1,13 @@
 package com.amazon.stepdefinitions;
 
-import com.amazon.pages.AmazonSignUpPage;
-import com.amazon.pages.BasePage;
+import com.amazon.pages.AmazonSignUpPageAmazon;
 import com.amazon.utilities.BrowserUtils;
-import com.amazon.utilities.Driver;
-import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class AmazonStepsDefinitions {
 
-    AmazonSignUpPage page = new AmazonSignUpPage();
+    AmazonSignUpPageAmazon page = new AmazonSignUpPageAmazon();
 
     @Then("User should be able to enter all credentials and click create your Amazon account button")
     public void user_should_be_able_to_enter_all_credentials_and_click_create_your_Amazon_account_button() {

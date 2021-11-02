@@ -23,6 +23,7 @@ public abstract class AutoBidsBasePage {
 
 
 
-    @FindBy(xpath = "//p[text()=' Login ']")
+    @FindBy(xpath = "//p[text()=' Login ']") // //p[.=' Login '] ==> LIKE #3 ABOVE
     public WebElement login;
+
 }

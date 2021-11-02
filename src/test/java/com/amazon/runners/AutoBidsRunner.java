@@ -7,9 +7,10 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src/test/resources/autobids",
+        features = "src/test/resources/autobids/TC05.feature",
         glue = "com/amazon/stepdefinitions",
-        tags =  "",
+        tags =  "@wip",
+        monochrome = true,
         dryRun = false
 
         // true ise sadece eksik olan methodları söyle
