@@ -1,0 +1,5 @@
+image: maven:3.6.1-jdk-8
+
+build_and_test:
+  script:
+    - mvn verify
